@@ -1,0 +1,30 @@
+nav {
+    z-index: 9999;
+    position: absolute;
+    left:0;
+    right:0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.meniu {
+    width: 50%;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    color: var(--text-color)
+    
+}
+
+.meniu a {
+    color:var(--text-color);
+    margin:15px;
+    font-size: 1.8rem;
+    padding: 2px;
+    border-bottom: 2px solid white;
+}
+
+.meniu a:hover {
+    border-bottom: 2px solid var(--main-color);
+}

@@ -1,0 +1,48 @@
+.main {
+    background-color: var(--dark-color);
+    text-align: center;
+}
+
+.wrapperMember {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    justify-content: left;
+    margin: 0 auto;
+}
+
+.heroImg {
+    background-image: url('https://static.dw.com/image/45854682_605.jpg');
+    width:100%;
+    height: 400px;
+    background-size: cover;
+}
+
+.heroImg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: calc(100vh - 400px);
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.55); 
+  }
+
+.memberTitle {
+    position: relative;
+    z-index: 999;
+    color:var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    margin: 0;
+    font-size: 3rem;
+}
+
+.honoraryP {
+    display: block;
+    color: var(--text-color);
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}

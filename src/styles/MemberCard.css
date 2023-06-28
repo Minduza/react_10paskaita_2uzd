@@ -1,0 +1,72 @@
+.member {
+    background-image: url("https://cdn1.thechelseachronicle.com/uploads/17/2021/11/GettyImages-1348296336-scaled.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.member:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+  }
+
+.card {
+    width: 500px;
+    position: relative;
+    z-index: 9;
+    height:400px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.card li {
+    list-style: none;
+}
+
+.closeBtn {
+    right:25px;
+    top:15px;
+    position: absolute;
+    background: rgb(252, 252, 252);
+    border: 0;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.closeBtn:hover {
+    color: var(--main-color)
+}
+
+.imgContainer {
+    padding: 2rem;
+    width: 200px;
+    margin:0 auto;
+}
+
+.imgContainer img {
+    width:100%;
+}
+
+.profile table{
+    margin: 0 auto;
+    
+}
+
+.profile td {
+    width: 150px;
+}
+
+.profile td:nth-child(even) {
+    width: 170px;
+}
+
+.profile td:nth-child(odd){
+    font-weight: 700;
+}

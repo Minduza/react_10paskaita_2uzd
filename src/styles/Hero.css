@@ -1,0 +1,73 @@
+.wrapper {
+    width:100%;
+    background-color: var(--dark-color);
+}
+
+
+.hero {
+    width:100%;
+    height: 100vh;
+    background-image: url("https://cdn1.thechelseachronicle.com/uploads/17/2021/11/GettyImages-1348296336-scaled.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); 
+  }
+
+.heroText {
+    z-index: 1;
+    width: 70%;
+    
+}
+
+.blueTitle {
+    color: var(--main-color);
+    text-decoration: underline;
+}
+
+.title{
+    font-size: 5rem;
+    color: var(--text-color);
+
+}
+
+.title_2{
+    font-size: 1.8rem;
+    color: var(--text-color);
+
+}
+
+.subtitle {
+
+    color: var(--text-color);
+}
+
+.activities {
+    margin: 0 auto;
+    max-width:1200px;
+}
+
+.flowRight {
+    flex-direction: row-reverse;
+}
+
+.bg-dark {
+    background-color: var(--secondary-color);
+}
+
+.bg-light {
+    background-color: var(--main-color);
+}

@@ -1,0 +1,23 @@
+.nameCard {
+    background-color: var(--primary-color);
+    color:var(--text-color);
+    margin:1rem;
+    width: 200px;
+    padding:2rem;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    box-shadow: 2px 2px 16px 1px rgba(0,0,0,0.43);
+    -webkit-box-shadow: 2px 2px 16px 1px rgba(0,0,0,0.43);
+    -moz-box-shadow: 2px 2px 16px 1px rgba(0,0,0,0.43);
+    cursor: pointer;
+}
+
+.nameCard:hover {
+    color:var(--dark-color)
+}
+
+.nameCard img {
+    width:100%
+}
+
